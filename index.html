@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 4 HTML</title>
+    <style>
+        body{
+            background-color: #E6E6E6;
+        }
+        header{
+            text-align: center;
+            color: #39393A;
+        }
+        .menu{
+            width: 20%;
+            float: left;
+            background-color: #AED0D7;
+        }
+        .menu ul{
+            list-style: none;
+        }
+        .menu ul li{
+            padding: 5px;
+        }
+        #content{
+            float: left;
+            width: 80%;
+        }
+        #content p{
+            color: #39393A;
+        }
+        #content article{
+            margin: 10px;
+        }
+        #content article h2{
+            color: #997CCE;
+            border-bottom: #DBD1ED 2px solid;
+        }
+        .menu ul a:link,
+        .menu ul a:visited,
+        .menu ul a:active{
+            text-decoration: none;
+            color: #39393A;
+        }
+        .menu ul li:hover{
+            background-color: #75B9C7;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Práctica 4 HTML</h1>
+        </header>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Paletas</a></li>
+                <li><a href="#">Helados</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <section id="content">
+            <article>
+                <h2>Artículo 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae qui error voluptas ab cupiditate quasi repellat omnis odio recusandae modi et sunt, nam magni! Iste est veritatis quam explicabo doloribus?</p>
+            </article>
+            <article>
+                <h2>Artículo 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam laudantium, facilis fuga rerum commodi quidem velit laborum ipsa ullam error consectetur maiores tempore ad eveniet sint consequuntur adipisci harum vero?</p>
+            </article>
+        </section>
+        <footer>
+            Pié de página
+        </footer>
+    </main>
+</body>
+</html>
